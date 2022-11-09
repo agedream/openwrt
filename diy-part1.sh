@@ -16,3 +16,20 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+
+sed -i '$a src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git' feeds.conf.default
+sed -i '$a src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall.git;packages' feeds.conf.default
+
+# 替换原有 Argon 主题
+rm -rf package/lean/luci-theme-argon
+git clone https://github.com/jerrykuku/luci-theme-argon.git -b 18.06 package/lean/luci-theme-argon
+
+# Rosy 主题
+git clone https://github.com/rosywrt/luci-theme-rosy.git package/kleinersource/luci-theme-rosy
+
+rm -rf package/helloworld
+git clone --depth=1 https://github.com/fw876/helloworld.git package/kleinersource/ssrplus
+
+# helloword
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/kleinersource/lua-maxminddb
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/kleinersource/luci-app-vssr
