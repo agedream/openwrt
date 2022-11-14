@@ -26,3 +26,6 @@ git clone --depth=1 https://github.com/fw876/helloworld.git package/kleinersourc
 # helloword
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/kleinersource/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/kleinersource/luci-app-vssr
+
+git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
+git clone https://github.com/DarkDean89/luci-app-filebrowser
