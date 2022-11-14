@@ -30,3 +30,4 @@ git clone https://github.com/jerrykuku/luci-app-vssr.git package/kleinersource/l
 git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 git clone https://github.com/DarkDean89/luci-app-filebrowser
 git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic
+git clone https://github.com/thinktip/luci-theme-neobird
