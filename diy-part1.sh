@@ -31,3 +31,4 @@ git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 git clone https://github.com/DarkDean89/luci-app-filebrowser
 git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic
 git clone https://github.com/thinktip/luci-theme-neobird
+git clone https://github.com/YL2209/luci-theme-argon_armygreen
