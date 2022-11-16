@@ -28,7 +28,6 @@ git clone https://github.com/jerrykuku/lua-maxminddb.git package/kleinersource/l
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/kleinersource/luci-app-vssr
 
 git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
-git clone https://github.com/DarkDean89/luci-app-filebrowser
-git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic
-git clone https://github.com/thinktip/luci-theme-neobird
-git clone https://github.com/YL2209/luci-theme-argon_armygreen
+git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic package/unblockneteasemusic
+git clone https://github.com/thinktip/luci-theme-neobird package/lean/luci-theme-neobird
+git clone https://github.com/YL2209/luci-theme-argon_armygreen package/lean/luci-theme-argon_armygreen
