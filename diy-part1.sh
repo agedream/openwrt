@@ -31,5 +31,6 @@ git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic package/unblockneteasemusic
 
 git clone https://github.com/jerrykuku/luci-app-argon-config package/argon-config
+git clone https://github.com/ferboiar/luci-app-fileassistant package/fileassistant
 #git clone https://github.com/thinktip/luci-theme-neobird package/lean/neobird
 #git clone https://github.com/YL2209/luci-theme-argon_armygreen package/lean/argon_armygreen
