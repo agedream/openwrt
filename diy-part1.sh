@@ -32,5 +32,5 @@ git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic pa
 
 git clone https://github.com/jerrykuku/luci-app-argon-config package/argon-config
 git clone https://github.com/ferboiar/luci-app-fileassistant package/fileassistant
-git clone https://github.com/thinktip/luci-theme-neobird package/neobird
-git clone https://github.com/YL2209/luci-theme-argon_armygreen package/argon_armygreen
+#git clone https://github.com/thinktip/luci-theme-neobird package/neobird
+#git clone https://github.com/YL2209/luci-theme-argon_armygreen package/argon_armygreen
